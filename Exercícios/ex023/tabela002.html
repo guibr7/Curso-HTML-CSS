@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    table{
+        width: 500px;
+        border-collapse: collapse;
+    }
+
+    caption{
+        font-size: 1.5em;
+        font-weight: bold;
+        padding: 10px;
+        background-color: lightgray;
+    }
+
+    thead,tfoot{
+        background-color: gray;
+        color: white;
+    }
+
+    td,th{
+        border: 1px solid black;
+        padding: 5px;
+    }
+
+    .popul{
+        text-align: right;
+    }
+
+    img{
+        margin-left: 1px;
+    }
+    </style>
+
+</head>
+<body>
+    <table>
+        <caption> Unidades Federativas mais populosas</caption>
+        <thead>
+          <tr> 
+            <th scope="col">Estado</th>
+            <th scope="col" style="width: 50px;">População</th>
+          </tr>
+        </thead>
+      
+        <tbody>
+          <tr>
+            <td> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Bandeira_do_estado_de_S%C3%A3o_Paulo.svg/22px-Bandeira_do_estado_de_S%C3%A3o_Paulo.svg.png" alt=""> São Paulo</td>
+            <td class="popul">46.024.937</td>
+          </tr>
+      
+          <tr>
+            <td> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Bandeira_de_Minas_Gerais.svg/20px-Bandeira_de_Minas_Gerais.svg.png"> Minas Gerais</td>
+            <td class="popul">20.732.660</td>
+          </tr>
+      
+          <tr>
+            <td> <img src='https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Bandeira_do_estado_do_Rio_de_Janeiro.svg/20px-Bandeira_do_estado_do_Rio_de_Janeiro.svg.png'> Rio de Janeiro</td>
+            <td class="popul">16.615.526</td>
+          </tr>
+      
+          <tr>
+            <td> <img src='https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Bandeira_da_Bahia.svg/20px-Bandeira_da_Bahia.svg.png'> Bahia</td>
+            <td class="popul">14.659.023</td>
+          </tr>
+      
+          <tr>
+            <td> <img src='https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Bandeira_do_Paran%C3%A1.svg/20px-Bandeira_do_Paran%C3%A1.svg.png'> Paraná</td>
+            <td class="popul">11.835.379</td>
+          </tr>
+         
+         <tfoot>
+           <tr>
+             <th scope="row">Total de habitantes</th>
+             <td class="popul">109.867.525</td>
+           </tr>
+         </tfoot>
+      
+        </tbody>
+      </table>      
+</body>
+</html>
