@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            width: 500px;
+            border-collapse: collapse;
+            text-align: center;
+        }
+        caption{
+            font-weight: bold;
+            font-size: 1.3em;
+            padding: 8px;
+        }
+        td,th{
+            border: 1px solid black;
+            padding: 8px;
+        }
+        col.nome{
+            background-color: beige;
+        }
+        col.sexo{
+            background-color: rgba(220, 20, 60, 0.432);
+        }
+    </style>
+</head>
+<body>
+    <h1>Exercício de tabela</h1>
+
+    <table>
+    
+        <colgroup>
+            <col class="nome">  
+            <col class="sexo"> 
+        </colgroup>
+
+        <caption>Cadastro</caption>
+        <tr>
+            <th>Nome</th>
+            <th>Sexo</th>
+            <th>Idade</th>
+            <th>Profissão</th>
+        </tr>
+        <tr>
+            <td> Guilherme </td>
+            <td>M</td>
+            <td>18</td>
+            <td>Jornalista</td>
+        </tr>
+
+        <tr>
+            <td>Francisco </td>
+            <td>M</td>
+            <td>16</td>
+            <td>Programador</td>
+        </tr>
+
+        <tr>
+            <td>Letícia </td>
+            <td>F</td>
+            <td>19</td>
+            <td>Professor</td>
+        </tr>
+
+        <tr>
+            <td>Ryan </td>
+            <td>M</td>
+            <td>18</td>
+            <td>Vendedor</td>
+        </tr>
+
+        <tr>
+            <td> Luis </td>
+            <td>M</td>
+            <td>20</td>
+            <td>Médico</td>
+        </tr>
+
+        <tr>
+            <td>Kemilly </td>
+            <td>F</td>
+            <td>21</td>
+            <td>Nutricionista</td>
+        </tr>
+    </table>
+</body>
+</html>
