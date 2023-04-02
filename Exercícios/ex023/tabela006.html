@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        div{
+            overflow: auto;
+        }
+        table{
+            width: 800px;
+            border-collapse: collapse;
+            text-align: center;
+        }
+        caption{
+            font-weight: bold;
+            font-size: 1.3em;
+            padding: 8px;
+            background-color: rgb(231, 230, 230);
+        }
+        td,th{
+            border: 1px solid black;
+            padding: 8px;
+            text-align: start;
+        }
+
+        .val{
+            text-align: end;
+        }
+       
+    </style>
+</head>
+<body>
+    <div>
+        <table>
+            <caption>DEMONSTRATIVO DE PAGAMENTO</caption>
+            <thead>
+                <tr>
+                    <th colspan="4">EMPRESA: OMR COMPONENTES AUTOMOTIVOS LTDA</th>
+                    <th colspan="4">CNPJ: 02.023.840/0000-27</td>
+                </tr>
+                <tr>
+                    <th colspan="4">NOME: GUILHERME HENRIQUE</th>
+                    <th colspan="4">FUNÇÃO: JOVEM APRENDIZ</th>
+                </tr>
+                <tr>
+                    <th colspan="4">SALÁRIO: R$611,55</th>
+                    <th colspan="4">REFERÊNCIA: 04/2023</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th colspan="4" scope="colgroup" >DESCRIÇÃO </th>
+                    <th scope="col" >REFRÊNCIA</th>
+                    <th scope="col">VENCIMENTO</th>
+                    <th scope="col">DESCONTO</th>
+                </tr>
+                <tr>
+                    <td colspan="4">Salário base diuno</td>
+                    <td class="val">80,00</td>
+                    <td class="val">611,55</td>
+                    <td class="val"></td>
+                </tr>
+                <tr>
+                    <td colspan="4">Ajuste líquido venc</td>
+                    <td class="val">0,00</td>
+                    <td class="val">0,83</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td colspan="4">Seguro vida funcionário</td>
+                    <td class="val">0,00</td>
+                    <td></td>
+                    <td class="val">1,50</td>
+                </tr>
+                <tr>
+                    <td colspan="4">Adiantamento normal desconto</td>
+                    <td class="val">0,00</td>
+                    <td></td>
+                    <td class="val">244,62</td>
+                </tr>
+                <tr>
+                    <td colspan="4">Unimed Enfermaria</td>
+                    <td class="val">0,00</td>
+                    <td></td>
+                    <td class="val">57,80</td>
+                </tr>
+                <tr>
+                    <td colspan="4">INSS normal</td>
+                    <td class="val">0,00</td>
+                    <td></td>
+                    <td class="val">41,41</td>
+                </tr>
+                <tr>
+                    <td colspan="4">Ajuste Liquido Anterior Desc</td>
+                    <td class="val">0,00</td>
+                    <td></td>
+                    <td class="val">0,67</td>
+                </tr>
+                <tr>
+                    <td colspan="4">Ajueste líquido adt desconto</td>
+                    <td class="val">0,00</td>
+                    <td></td>
+                    <td class="val">0,38</td>
+                </tr>
+                <tr>
+                    <th scope="col">Salário base</th>
+                    <th scope="col">Sal. Contr.INSS</th>
+                    <th scope="col">Base FGTS</th>
+                    <th scope="col">FGTS Mês</th>
+                    <th scope="col">Base Cal IRRF</th>
+                    <th scope="col">Total de vencimentos</th>
+                    <th scope="col">Total dos descontos</th>
+                </tr>
+                <tr>
+                    <td class="val">R$611,55</td>
+                    <td class="val">R$552,25</td>
+                    <td class="val">R$611,55</td>
+                    <td class="val">R$12,23</td>
+                    <td class="val">R$570,14</td>
+                    <td class="val">R$612,38</td>
+                    <td class="val">R$346,38</td>
+                </tr>
+                <tr>
+                    <th colspan="6" scope="row" style="text-align: end;">LÍQUIDO</th>
+                    <td class="val">R$266,00</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
