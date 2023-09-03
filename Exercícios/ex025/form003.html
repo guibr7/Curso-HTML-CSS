@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulário</title>
 </head>
+
 <body>
     <h1>Teste de formulário</h1>
     <form action="cadastro.js" method="get" autocomplete="on">
@@ -19,16 +20,18 @@
         <p><label for="imes">Período leitvo:</label>
             <input type="month" id-=imes>
         </p>
+        <p>
+            <label for="ihora">Horário da prova:</label>
+            <input type="time" itemref="ihora" name="hora">
+        </p>
+        <p><label for="idata">Dia da prova:</label>
+        <input type="date" name="data" id="idata"></p>
 
         <p>
             <input type="submit" value="Enviar">
             <input type="reset" value="Limpar">
         </p>
-
-        <p>
-            <label for="ihora">Horário da prova:</label>
-        </p>
-
     </form>
+
 </body>
 </html>
